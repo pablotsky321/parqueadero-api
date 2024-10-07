@@ -1,0 +1,279 @@
+{
+	"info": {
+		"_postman_id": "0ee89558-07e7-4d07-8a87-2095449fdb3d",
+		"name": "parqueadero-api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32406254"
+	},
+	"item": [
+		{
+			"name": "vehiculo",
+			"item": [
+				{
+					"name": "http://localhost:3000/vehiculo",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/vehiculo",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"vehiculo"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/vehiculo/placa?placa=QBW59D",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/vehiculo/placa?placa=QBW59D",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"vehiculo",
+								"placa"
+							],
+							"query": [
+								{
+									"key": "placa",
+									"value": "QBW59D"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/vehiculo/d57e0e37-831b-11ef-868c-088fc3750094",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/vehiculo/d57e0e37-831b-11ef-868c-088fc3750094",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"vehiculo",
+								"d57e0e37-831b-11ef-868c-088fc3750094"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/vehiculo",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"placa\":\"MNO35F\",\r\n    \"tipo\":\"moto\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/vehiculo",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"vehiculo"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/vehiculo/f786b0be-9e97-478d-bc6d-8601e7c3efa3",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"placa\":\"MNO351\",\r\n    \"tipo\":\"carro\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/vehiculo/f786b0be-9e97-478d-bc6d-8601e7c3efa3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"vehiculo",
+								"f786b0be-9e97-478d-bc6d-8601e7c3efa3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/vehiculo/f786b0be-9e97-478d-bc6d-8601e7c3efa3",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/vehiculo/f786b0be-9e97-478d-bc6d-8601e7c3efa3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"vehiculo",
+								"f786b0be-9e97-478d-bc6d-8601e7c3efa3"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "registro",
+			"item": [
+				{
+					"name": "http://localhost:3000/registro-parqueo",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/registro-parqueo",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"registro-parqueo"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/registro-parqueo/8e0d0d3f-835b-11ef-a9a7-088fc3750094",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/registro-parqueo/8e0d0d3f-835b-11ef-a9a7-088fc3750094",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"registro-parqueo",
+								"8e0d0d3f-835b-11ef-a9a7-088fc3750094"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/registro-parqueo/por-vehiculo/45ab85fe-8354-11ef-a9a7-088fc3750094",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/registro-parqueo/por-vehiculo/45ab85fe-8354-11ef-a9a7-088fc3750094",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"registro-parqueo",
+								"por-vehiculo",
+								"45ab85fe-8354-11ef-a9a7-088fc3750094"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/registro-parqueo",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id_vehiculo\":\"b50197e2-1870-4597-96cc-8a35982f54a8\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/registro-parqueo",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"registro-parqueo"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/registro-parqueo/856a5008-35d5-4a61-bd28-eff18cbdbaf0",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"fecha_entrada\": \"2024-09-05T16:36:30.000Z\",\r\n        \"fecha_salida\": \"2024-10-05T16:36:30.000Z\",\r\n        \"estado\": \"fuera\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/registro-parqueo/856a5008-35d5-4a61-bd28-eff18cbdbaf0",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"registro-parqueo",
+								"856a5008-35d5-4a61-bd28-eff18cbdbaf0"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
